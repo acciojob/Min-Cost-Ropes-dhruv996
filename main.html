@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimum Cost Ropes</title>
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <h1>Minimum Cost Ropes</h1>
+
+  <label for="ropeLengths">Enter Rope Lengths (comma-separated):</label>
+  <input type="text" id="ropeLengths" placeholder="4,3,2,6" required><br>
+
+  <button onclick="calculateMinCost()">Calculate Minimum Cost</button>
+
+  <div id="result"></div>
 
 </body>
-
 </html>
+
